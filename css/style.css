@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("/fonts/OpenSans-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("/fonts/OpenSans-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "OpenSans", sans-serif;
+  font-weight: normal;
+  font-style: none;
+  line-height: 1.2;
+}
+
+h1 {
+  border: 1px solid;
+  color: red;
+}
