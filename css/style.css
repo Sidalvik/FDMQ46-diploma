@@ -1,14 +1,14 @@
 /*Декларации и общие параметры*/
 @font-face {
   font-family: "Open Sans";
-  src: url("/fonts/OpenSans-Regular.ttf");
+  src: url("../fonts/OpenSans-Regular.ttf");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url("/fonts/OpenSans-bold.ttf");
+  src: url("../fonts/OpenSans-bold.ttf");
   font-weight: 700;
   font-style: normal;
 }
@@ -205,7 +205,7 @@ button:hover,
   .page-header {
     min-height: 640px;
 
-    background-image: url("/images/banner-mobile.jpg");
+    background-image: url("../images/banner-mobile.jpg");
   }
 
   .page__top {
@@ -258,7 +258,7 @@ button:hover,
   .page-header {
     min-height: 390px;
 
-    background-image: url("/images/banner-bg-tablet.jpg");
+    background-image: url("../images/banner-bg-tablet.jpg");
   }
 
   .page__top {
@@ -291,7 +291,7 @@ button:hover,
 @media (min-width: 1200px) {
   .page-header {
     min-height: 450px;
-    background-image: url("/images/banner-bg.jpg");
+    background-image: url("../images/banner-bg.jpg");
     padding: 1.9rem 0;
 
     background-position: center top;
@@ -407,19 +407,19 @@ button:hover,
 }
 
 .trends__item:nth-child(1) {
-  background-image: url("/images/trend1.jpg");
+  background-image: url("../images/trend1.jpg");
 }
 
 .trends__item:nth-child(2) {
-  background-image: url("/images/trend2.jpg");
+  background-image: url("../images/trend2.jpg");
 }
 
 .trends__item:nth-child(3) {
-  background-image: url("/images/trend3.jpg");
+  background-image: url("../images/trend3.jpg");
 }
 
 .trends__item:nth-child(4) {
-  background-image: url("/images/trend4.jpg");
+  background-image: url("../images/trend4.jpg");
 }
 
 .trends__header {
