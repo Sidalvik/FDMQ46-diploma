@@ -90,13 +90,13 @@ button:hover,
 /*--------------------click-element---------------------*/
 button,
 select,
+.menu__btn-close,
 .tags__item,
 .popup__open-lable,
 .popup__close-lable,
 .popup-form__radio-label {
   cursor: pointer;
 }
-
 
 /*--------------font-size, section margins---------------------*/
 @media (max-width: 640px) {
